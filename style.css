@@ -29,8 +29,15 @@ h2 {
 }
 
 p{
+    margin: 0;
     padding: 10px 0;
     font-size: 1rem;
+    text-align: justify;
+}
+
+
+section {
+    padding: 40px 0;
 }
 
 section#banner {
@@ -41,6 +48,24 @@ section#banner {
     background-size: cover;
     background-position-x: 25%;
     
+}
+
+p.espaco {
+    margin-bottom: 20px;
+}
+
+#botao {
+    font-weight: bold;
+    text-decoration: none;
+    color: #56042C;
+    padding: 12px;
+    border: 2px solid #56042C; 
+    border-radius: 15px;
+}
+
+#botao:hover {
+    background-color: #56042C;
+    color: white;
 }
 
 section#banner div#bannerTitle {
@@ -74,5 +99,9 @@ section#banner div#bannerTitle {
         background: linear-gradient(90deg, rgba(86, 4, 44, 0.944) 25%, rgba(86, 4, 44, 0.213)),
         url(images/DpV4ZHUa83mV4QosFL4xAC.jpg) no-repeat center left;
         
+    }
+
+    p.espaco {
+        margin-bottom: 35px;
     }
 }
