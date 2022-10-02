@@ -17,7 +17,7 @@ html, body {
 h1, h2{
     text-transform: uppercase;
     font-weight: bold;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 h1{
@@ -25,12 +25,12 @@ h1{
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p{
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0px 20px 0px;
     font-size: 1rem;
     text-align: justify;
 }
@@ -55,10 +55,11 @@ p.espaco {
 }
 
 #botao {
+    padding: 15px;
     font-weight: bold;
+    font-size: 1.1rem;
     text-decoration: none;
     color: #56042C;
-    padding: 12px;
     border: 2px solid #56042C; 
     border-radius: 15px;
 }
@@ -69,11 +70,16 @@ p.espaco {
 }
 
 section#banner div#bannerTitle {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .letraPreta {
     color: black;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +94,12 @@ section#banner div#bannerTitle {
     p{
         font-size: 1.2rem;
     }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -101,7 +113,8 @@ section#banner div#bannerTitle {
         
     }
 
-    p.espaco {
-        margin-bottom: 35px;
+    .img-fluid {
+        max-width: 60%;
+        height: auto;
     }
 }
