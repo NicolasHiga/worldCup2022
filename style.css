@@ -14,10 +14,11 @@ html, body {
     color: white;
 }
 
-h1, h2{
+h1, h2 {
     text-transform: uppercase;
     font-weight: bold;
-    padding: 2px 0;
+    padding: 5px 0;
+    margin: 0px;
 }
 
 h1{
@@ -26,6 +27,14 @@ h1{
 
 h2 {
     font-size: 1.5rem;
+}
+
+h3 {
+    padding: 10px 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #093d61;
+    text-align: center;
 }
 
 p{
@@ -82,6 +91,45 @@ section#banner div#bannerTitle {
     height: auto;
 }
 
+#grupos {
+    background-color: #093d61;
+}
+
+.grupoTime {
+    padding: 5px;
+    background-color: rgba(241, 241, 241, 0.944);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.719);
+}
+
+ul {
+    color: black;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+ul > li {
+    padding: 20px 0px;
+}
+
+ul > li > img {
+    width: 15%;
+}
+
+ul > li > span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+
+.divisorL {
+    border-bottom: 1px solid gray;
+}
+
+.col-sm-12{
+    padding: 6px;
+}
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
@@ -99,7 +147,10 @@ section#banner div#bannerTitle {
         max-width: 100%;
         height: auto;
     }
-    
+
+    .col-md-6{
+        padding: 6px;
+    }
 }
 
 @media screen and (min-width: 992px) {
