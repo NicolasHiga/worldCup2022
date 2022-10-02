@@ -61,8 +61,8 @@ section {
 section#banner {
     height: 85vh;
     background: linear-gradient(90deg, rgba(86, 4, 44, 0.896) 35%, rgba(86, 4, 44, 0.213)),
-                url(images/DpV4ZHUa83mV4QosFL4xAC.jpg),
-                url(images/ruido.png);
+                url(../images/DpV4ZHUa83mV4QosFL4xAC.jpg),
+                url(../images/ruido.png);
     background-size: cover;
     background-position-x: 25%;
     
@@ -168,10 +168,25 @@ section#grupos ul > li > span {
 section#tickets{
     height: 60vh;
     background: linear-gradient(90deg, rgba(209, 161, 17, 0.702) 30%, rgba(209, 161, 17, 0.17)),
-                url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center left;
+                url(../images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center left;
     background-size: cover;
     background-position-x: 25%;
 }
+
+/* ------ Jogos ------*/
+
+section#jogos {
+    margin-top: 44px;
+    background-color: white;
+    color: black;
+}
+
+.backBtn{
+    width: 64px;
+    background-color: #07304e;
+    border-radius: 50%;
+}
+
 
 /* ------ Media Queries ------*/
 
@@ -204,7 +219,7 @@ section#tickets{
 
     section#tickets{
         background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
-                    url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
+                    url(../images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
                     background-size: cover;
     }
 }
@@ -216,7 +231,7 @@ section#tickets{
 
     section#banner {
         background: linear-gradient(90deg, rgba(86, 4, 44, 0.944) 25%, rgba(86, 4, 44, 0.213)),
-        url(images/DpV4ZHUa83mV4QosFL4xAC.jpg) no-repeat center left;
+        url(../images/DpV4ZHUa83mV4QosFL4xAC.jpg) no-repeat center left;
         
     }
 
