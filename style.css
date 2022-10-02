@@ -168,8 +168,9 @@ section#grupos ul > li > span {
 section#tickets{
     height: 60vh;
     background: linear-gradient(90deg, rgba(209, 161, 17, 0.702) 30%, rgba(209, 161, 17, 0.17)),
-                url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) center right;
+                url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center left;
     background-size: cover;
+    background-position-x: 25%;
 }
 
 /* ------ Media Queries ------*/
@@ -203,7 +204,8 @@ section#tickets{
 
     section#tickets{
         background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
-                    url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) center right;
+                    url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
+                    background-size: cover;
     }
 }
 
