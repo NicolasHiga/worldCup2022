@@ -2,10 +2,12 @@
 
 /*
     Ocean Boat Blue - #1077C3
-    Picton Blue - #49BCE3
+    Picton Blue - #49BCE3 / #07304e
     Mikado Yellow - #FEC310
     Dark Scarlet - #56042C - (86, 4, 44)
 */
+
+/* ------ Configurações Gerais ------*/
 html, body {
     width: 100%;
     height: 100%;
@@ -21,6 +23,11 @@ h1, h2 {
     margin: 0px;
 }
 
+nav {
+    background-color: #07304e;
+    box-shadow: 0 0 10px black;
+}
+
 h1{
     font-size: 2.2rem;
 }
@@ -33,7 +40,7 @@ h3 {
     padding: 10px 0px;
     font-size: 1.3em;
     font-weight: bold;
-    color: #093d61;
+    color: #07304e;
     text-align: center;
 }
 
@@ -49,6 +56,8 @@ section {
     padding: 40px 0;
 }
 
+/* ------ Configurações Específicas ------*/
+
 section#banner {
     height: 85vh;
     background: linear-gradient(90deg, rgba(86, 4, 44, 0.896) 35%, rgba(86, 4, 44, 0.213)),
@@ -59,28 +68,46 @@ section#banner {
     
 }
 
+section#banner div#bannerTitle {
+    padding-bottom: 20px;
+}
+
 p.espaco {
     margin-bottom: 20px;
 }
 
-#botao {
+/* ------ Botões e Links ------*/
+
+.botao {
     padding: 10px;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: .8rem;
     text-decoration: none;
-    color: #56042C;
-    border: 2px solid #56042C; 
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
-#botao:hover {
+#btnMascote {
+    color: #56042C;
+    border: 2px solid #56042C; 
+}
+
+#btnMascote:hover {
     background-color: #56042C;
     color: white;
 }
 
-section#banner div#bannerTitle {
-    padding-bottom: 20px;
+#btnHoras {
+    color: white;
+    border: 2px solid white; 
 }
+
+#btnHoras:hover {
+    background-color: white;
+    color: #07304e;
+}
+
+/* ------ Mascote ------*/
 
 .letraPreta {
     color: black;
@@ -91,8 +118,10 @@ section#banner div#bannerTitle {
     height: auto;
 }
 
+/* ------ Grupos ------*/
+
 #grupos {
-    background-color: #093d61;
+    background-color: #07304e;
 }
 
 .grupoTime {
@@ -130,6 +159,8 @@ section#grupos ul > li > span {
     padding: 6px;
 }
 
+/* ------ Media Queries ------*/
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
@@ -143,9 +174,9 @@ section#grupos ul > li > span {
         font-size: 1.2rem;
     }
 
-    #botao {
-        padding: 15px;
-        font-size: 1.1rem;
+    .botao {
+        padding: 13px;
+        font-size: 1rem;
     }
 
     .img-fluid {
