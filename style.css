@@ -97,7 +97,7 @@ p.espaco {
     color: white;
 }
 
-#btnHoras {
+.btnBranco {
     color: white;
     border: 2px solid white; 
 }
@@ -105,6 +105,11 @@ p.espaco {
 #btnHoras:hover {
     background-color: white;
     color: #07304e;
+}
+
+#btnTickets:hover {
+    background-color: white;
+    color: rgb(209, 161, 17);
 }
 
 /* ------ Mascote ------*/
@@ -125,7 +130,7 @@ p.espaco {
 }
 
 .grupoTime {
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(241, 241, 241, 0.944);
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.719);
@@ -159,6 +164,14 @@ section#grupos ul > li > span {
     padding: 6px;
 }
 
+/* ------ Tickets ------*/
+section#tickets{
+    height: 60vh;
+    background: linear-gradient(90deg, rgba(209, 161, 17, 0.702) 30%, rgba(209, 161, 17, 0.17)),
+                url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) center right;
+    background-size: cover;
+}
+
 /* ------ Media Queries ------*/
 
 @media screen and (min-width: 768px) {
@@ -186,6 +199,11 @@ section#grupos ul > li > span {
 
     .col-md-6{
         padding: 6px;
+    }
+
+    section#tickets{
+        background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
+                    url(images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) center right;
     }
 }
 
