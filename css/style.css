@@ -51,6 +51,11 @@ p{
     text-align: justify;
 }
 
+ul{
+    padding: 0;
+    list-style: none;
+}
+
 
 section {
     padding: 40px 0;
@@ -138,7 +143,6 @@ p.espaco {
 
 section#grupos ul {
     color: black;
-    list-style: none;
     padding: 0px 10px;
 }
 
@@ -181,10 +185,36 @@ section#jogos {
     color: black;
 }
 
-.backBtn{
+.backgBtn{
     width: 64px;
+    height: 64px;
     background-color: #07304e;
     border-radius: 50%;
+}
+
+.info {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.timesJogos{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 14px 0px;
+}
+
+.timesJogos img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.data {
+    font-size: 0.85rem;
+    padding: 5px 15px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
 }
 
 
@@ -221,6 +251,16 @@ section#jogos {
         background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
                     url(../images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
                     background-size: cover;
+    }
+
+    .timesJogos{
+        font-size: 2rem;
+    }
+    
+    .timesJogos img {
+        height: 72px;
+        width: 72px;
+        margin: 0px 15px;
     }
 }
 
