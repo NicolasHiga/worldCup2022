@@ -48,11 +48,58 @@
 
         <!-- Jogos-->
         <section id="jogos">
-            <h2 class="my-4 text-center">Programação dos Jogos</h2>
+            <h2 class="my-4 text-center fw-normal">Programação dos Jogos</h2>
             <hr>
 
+            <!-- Menu carousel-->
+            <div id="navCarousel">
+                <ul class="pagination mx-auto" style="width: 345px">
+                    <!-- Previous-->
+                    <li class="page-item">
+                        <a class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span aria-hidden="true">&laquo;</span>
+                    </a>
+
+                    </li>
+                    <!-- Seções -->
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true">A</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">B</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">C</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">D</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">E</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5">F</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6">G</button>
+                    </li>
+                    <li class="page-item">
+                        <button class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7">H</button>
+                    </li>
+
+                    <!-- Next-->
+                    <li class="page-item">
+                        <a class="page-link" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fim Menu carousel-->
+
+            <!-- Carousel-->
             <div class="container">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-inner">
                         <!--GRUPO A -->
                         <div class="carousel-item active" id="grupoA">    
@@ -450,7 +497,7 @@
                                 <li>
                                     <span class="info">jogo 13 - grupo G</span><br>
                                     <div class="timesJogos">
-                                        <span>SUI<img src="../images/countries/SUI.png" alt="Suíça"></span>
+                                        <span>SUI<img src="../images/countries/SUI.png"alt="Suíça"></span>
                                         <span>X</span>
                                         <span><img src="../images/countries/CMR.png" alt="Camarões">CAM</span>
                                     </div>
@@ -576,16 +623,17 @@
                     </div>
 
                     <!-- Controladores Carousel -->
-                    <button class="carousel-control-prev backgBtn my-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev backgBtn my-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next backgBtn my-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next backgBtn my-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
+            <!-- Fim Carousel-->
         </section>
         <!-- Fim Jogos-->
 
