@@ -63,6 +63,11 @@ section {
 
 /* ------ Configurações Específicas ------*/
 
+#navMain a:hover {
+    font-weight: bold;
+    background-color: #0c4873;
+}
+
 section#banner {
     height: 85vh;
     background: linear-gradient(90deg, rgba(86, 4, 44, 0.896) 35%, rgba(86, 4, 44, 0.213)),
