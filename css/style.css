@@ -45,9 +45,13 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 1.5rem;
+}
+
 p{
     margin: 0;
-    padding: 5px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     font-size: 1rem;
     text-align: justify;
 }
@@ -98,12 +102,12 @@ p.espaco {
     box-sizing: border-box;
 }
 
-#btnMascote {
+#btnRed {
     color: #56042C;
     border: 2px solid #56042C; 
 }
 
-#btnMascote:hover {
+#btnRed:hover {
     background-color: #56042C;
     color: white;
 }
@@ -245,6 +249,35 @@ section#jogos ul > li > hr {
     border-radius: 20px;
 }
 
+/* ------ Jogadores ------*/
+div#selecaoBr {
+    background-color: white;
+    margin-top: 92px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+div#jogadores {
+    min-width: 300px;
+    max-width: 900px;
+}
+
+div#jogadores article {
+    margin: 0px 25px;
+    text-align: justify;
+}
+
+div#jogadores article > img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+div#jogadores article > ul {
+    list-style: circle;
+    padding-left: 25px;
+    font-size: 1rem;
+}
+
 
 /* ------ Media Queries ------*/
 
@@ -254,6 +287,10 @@ section#jogos ul > li > hr {
     }
 
     h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
         font-size: 2rem;
     }
     
@@ -279,6 +316,10 @@ section#jogos ul > li > hr {
         background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
                     url(../images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
                     background-size: cover;
+    }
+
+    div#jogadores article > ul {
+        font-size: 1.2rem;
     }
 
     .timesJogos{
