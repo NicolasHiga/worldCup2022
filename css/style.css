@@ -75,7 +75,7 @@ section {
 
 section#banner {
     height: 85vh;
-    background: linear-gradient(90deg, rgba(86, 4, 44, 0.896) 35%, rgba(86, 4, 44, 0.213)),
+    background: linear-gradient(90deg, rgba(86, 4, 44, 0.811) 30%, rgba(86, 4, 44, 0.132)),
                 url(../images/DpV4ZHUa83mV4QosFL4xAC.jpg),
                 url(../images/ruido.png);
     background-size: cover;
@@ -243,12 +243,11 @@ section#jogos ul > li > hr {
 }
 
 .timesJogos img {
-    /*height: 58px;
-    width: 58px;
-    border-radius: 50%;
+    width: 56px;
+    border-radius: 10px;
     margin: 0px 10px;
     border: 1px solid rgb(234, 234, 234);
-    box-shadow: 0 0 5px rgb(128, 128, 128);*/
+    box-shadow: 0 0 5px rgb(128, 128, 128);
 }
 
 .data {
@@ -335,8 +334,7 @@ div#jogadores article > ul {
     }
     
     .timesJogos img {
-        height: 72px;
-        width: 72px;
+        width: 80px;
         margin: 0px 15px;
     }
 
