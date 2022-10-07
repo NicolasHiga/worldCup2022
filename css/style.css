@@ -8,13 +8,17 @@
 */
 
 /* ------ Configurações Gerais ------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    
     color: white;
-    background-color: #212529;
+    background-color: #07304e;
 }
 
 h1, h2 {
@@ -121,6 +125,16 @@ p.espaco {
     border: 2px solid white; 
 }
 
+.btnAmarelo {
+    color: rgb(209, 161, 17);
+    border: 2px solid rgb(209, 161, 17);
+}
+
+.btnAmarelo:hover {
+    background-color: rgb(209, 161, 17);
+    color: white;
+}
+
 #btnHoras:hover {
     background-color: white;
     color: #07304e;
@@ -131,7 +145,61 @@ p.espaco {
     color: rgb(209, 161, 17);
 }
 
+/* ------ Cronometro ------*/
+.cronometro {
+    background-color: #56042C;
+    border-top: 1px solid rgba(191, 191, 191, 0.783);
+    padding: 20px 0;
+    
+}
+
+.cronometro h3 {
+    font-size: 1rem;
+    padding: 5px 0px;
+    margin: 0;
+    color: rgb(209, 161, 17);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#area-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area-c div {
+    height: 120px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(209, 161, 17);
+    background-color: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+#area-c span {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#area-c span.time {
+    font-size: 10px;
+}
+
 /* ------ Mascote ------*/
+section#mascote {
+    background-color: white;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.633), inset 0 -5px 10px rgba(0, 0, 0, 0.633);
+}
 
 .letraPreta {
     color: black;
@@ -360,6 +428,29 @@ div.artigo article > ul {
 
     div#navCarousel > ul > li > button {
         padding: 6px 12px;
+    }
+
+    /* ------ Cronometro ------*/
+    .cronometro h3 {
+        font-size: 1.4rem;
+    }
+
+    #area-c {
+        height: 200px;
+        width: 550px;
+    }
+
+    #area-c div {
+        height: 170px;
+        width: 150px;
+    }
+
+    #area-c span {
+        font-size: 60px;
+    }
+
+    #area-c span.time {
+        font-size: 15px;
     }
 }
 
