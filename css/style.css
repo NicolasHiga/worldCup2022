@@ -176,7 +176,7 @@ p.espaco {
     align-items: center;
     justify-content: center;
     color: rgb(209, 161, 17);
-    background-color: rgba(5, 5, 5, 0.9);
+    background-color: rgba(5, 5, 5, 0.777);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     border-radius: 7px;
     letter-spacing: 3px;
