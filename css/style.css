@@ -191,10 +191,30 @@ p.espaco {
     font-size: 10px;
 }
 
+/* ------ Catar ------*/
+section#catar {
+    background-color: white;  
+    padding-bottom: 20;
+}
+
+section#catar h2{
+    padding-top: 15px;
+}
+
+#catar-img{
+    width: 100%;
+}
+
+hr.hr-qatar {
+    background-color: rgba(191, 191, 191, 0.783);
+    margin: 0;
+}
+
 /* ------ Mascote ------*/
 section#mascote {
-    background-color: white;
-    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.633), inset 0 -5px 10px rgba(0, 0, 0, 0.633);
+    padding-top: 20px;
+    background-color: white;   
+    border-top: 1px solid rgba(191, 191, 191, 0.783);
 }
 
 .letraPreta {
