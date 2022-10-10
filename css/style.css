@@ -210,6 +210,14 @@ hr.hr-qatar {
     margin: 0;
 }
 
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
 /* ------ Mascote ------*/
 section#mascote {
     padding-top: 20px;
