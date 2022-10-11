@@ -311,7 +311,6 @@ div#navCarousel > ul > li > button {
 
 section#jogos {
     margin-top: 44px;
-    background-color: white;
     color: black;
 }
 
@@ -352,6 +351,11 @@ section#jogos ul > li > hr {
     padding: 5px 15px;
     background-color: rgb(234, 234, 234);
     border-radius: 20px;
+}
+
+section#finals h3 {
+    margin: 0;
+    padding-bottom: 0;
 }
 
 /* ------ Jogadores ------*/
