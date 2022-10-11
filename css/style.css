@@ -72,7 +72,7 @@ section {
 
 /* ------ Configurações Específicas ------*/
 
-#navMain a:hover {
+#navMain li > a:hover {
     font-weight: bold;
     background-color: #0c4873;
 }
