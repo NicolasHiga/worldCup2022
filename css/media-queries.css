@@ -64,7 +64,7 @@
         background-color: #07304e;
         border-radius: 50%;
     }
-
+    
     div#navCarousel > ul > li > button {
         padding: 6px 12px;
     }
@@ -108,7 +108,7 @@
     }
 
     section#banner {
-        background: linear-gradient(90deg, rgba(86, 4, 44, 0.944) 25%, rgba(86, 4, 44, 0.213)),
+        background: linear-gradient(90deg, rgba(86, 4, 44, 0.843) 20%, rgba(86, 4, 44, 0.213)),
         url(../images/DpV4ZHUa83mV4QosFL4xAC.jpg) no-repeat center left;
         
     }
