@@ -285,25 +285,6 @@ section#tickets{
 }
 
 /* ------ Jogos ------*/
-
-div#navCarousel {
-    background-color: transparent;
-    box-shadow: none;
-}
-
-div#navCarousel > ul > li {
-    max-width: 37px;
-    min-width: 15px;
-}
-
-div#navCarousel > ul > li > button {
-    padding: 6px 10px;
-}
-
-.page-link {
-    color: #07304e;
-}
-
 .carousel-indicators {
     position: relative;
     right: 1;
