@@ -304,6 +304,52 @@ div#navCarousel > ul > li > button {
     color: #07304e;
 }
 
+.carousel-indicators {
+    position: relative;
+    right: 1;
+    bottom: 1;
+    left: 1;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    max-width: 37px;
+    min-width: 15px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-indent: 0px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    opacity: 1;
+    transition: none;
+}
+
+.carousel-indicators li > button {
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    padding: 6px 10px;
+    text-align: center;
+    color: #07304e;
+    text-align: center;
+}
+
+.carousel-indicators .active button {
+    background-color: #0D6efd;
+    color: white;
+}
+
 section#jogos {
     margin-top: 44px;
     color: black;
