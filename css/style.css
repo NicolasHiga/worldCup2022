@@ -304,11 +304,6 @@ div#navCarousel > ul > li > button {
     color: #07304e;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
 section#jogos {
     margin-top: 44px;
     color: black;
