@@ -1,5 +1,6 @@
 /* ------ Media Queries ------*/
 @media screen and (min-width: 768px) {
+    /* ------ Configurações Gerais ------*/
     h1 {
         font-size: 3rem;
     }
@@ -34,16 +35,42 @@
         padding: 6px;
     }
 
+    /* ------ Cronometro ------*/
+    .cronometro h3 {
+        font-size: 1.8rem;
+    }
+
+    #area-c {
+        height: 200px;
+        width: 550px;
+    }
+
+    #area-c div {
+        height: 150px;
+        width: 140px;
+    }
+
+    #area-c span {
+        font-size: 40px;
+    }
+
+    #area-c span.time {
+        font-size: 13px;
+    }
+
+    /* ------ Tickets ------*/
     section#tickets{
         background: linear-gradient(90deg, rgba(209, 161, 17, 0.615) 20%, rgba(209, 161, 17, 0.17)),
                     url(../images/lusail-stadium-doha-qatar_092116_100518-e1569177231541.jpg) no-repeat center center;
                     background-size: cover;
     }
 
+    /* ------ Jogadores ------*/
     div#jogadores article > ul {
         font-size: 1.2rem;
     }
 
+    /* ------ Jogos ------*/
     .timesJogos{
         font-size: 2rem;
     }
@@ -69,37 +96,14 @@
         padding: 6px 12px;
     }
 
+    /* ------ Catar ------*/
     section#catar h2{
         padding-left: 20px;
     }
 
     section#catar p{
         padding-left: 20px;
-    }
-
-    /* ------ Cronometro ------*/
-    .cronometro h3 {
-        font-size: 1.8rem;
-    }
-
-    #area-c {
-        height: 200px;
-        width: 550px;
-    }
-
-    #area-c div {
-        height: 150px;
-        width: 140px;
-    }
-
-    #area-c span {
-        font-size: 40px;
-    }
-
-    #area-c span.time {
-        font-size: 13px;
-    }
-
+    }   
 }
 
 @media screen and (min-width: 992px) {

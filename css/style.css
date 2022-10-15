@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/*
-    Ocean Boat Blue - #1077C3
-    Picton Blue - #49BCE3 / #07304e
-    Mikado Yellow - #FEC310
-    Dark Scarlet - #56042C - (86, 4, 44)
-*/
-
 /* ------ Configurações Gerais ------*/
 html, body {
     width: 100%;
@@ -271,9 +264,6 @@ section#grupos ul > li > span {
 .col-sm-12{
     padding: 6px;
 }
-
-/* ------ Estadios ------*/
-
 
 /* ------ Tickets ------*/
 section#tickets{
