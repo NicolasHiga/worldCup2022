@@ -20,7 +20,7 @@ function scrollHorizontally(val) {
     }
 
     if(currentScrollPosition <= maxScroll){
-        currentScrollPosition = maxScroll;
+        currentScrollPosition = maxScroll - 10;
         btnScrollRight.style.opacity = "0"
     }else{
         btnScrollRight.style.opacity = "1"

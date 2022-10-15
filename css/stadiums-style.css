@@ -10,6 +10,15 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    overflow-x: scroll;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-scroll {
+    -ms-overflow-style: none;
 }
 
 .horizontal-scroll .btn-scroll {
@@ -23,7 +32,9 @@
     transition: 1s;
     width: 30px;
     height: 30px;
-    margin: 8px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 .stadiums-container {
@@ -57,6 +68,7 @@
     text-align: center;
 }
 
+/* ------ Imagem Estádios ------*/
 div#stadium-1 {
     background: url(../images/stadiums/ahmad-bin-ali-stadium.jpg) no-repeat;
     background-size: cover;
@@ -97,6 +109,8 @@ div#stadium-8 {
     background-size: cover;
 }
 
+
+/* ------ Media Queries ------*/
 @media screen and (min-width: 768px) {
     .stadium-area {
         margin: 0px 6px;
@@ -126,5 +140,6 @@ div#stadium-8 {
 
     .stadium-area span {
         font-size: 2.2rem;
+        padding-bottom: 35px;
     }
 }
