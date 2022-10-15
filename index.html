@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- CSS Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stadiums-style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
@@ -363,6 +364,30 @@
         </section>
         <!-- Fim Grupos -->
 
+        <!-- Estádios -->
+        <section class="pt-2">
+            <div class="container">
+                <h2 class="pb-3">Estádios</h2>
+                <div class="horizontal-scroll">
+                    <!-- Botões-->
+                    <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
+                    <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+
+                    <div class="stadiums-container">
+                        <div class="stadium-area" id="stadium-1"><span>Ahmad Bin Ali Stadium</span></div>
+                        <div class="stadium-area" id="stadium-2"><span>Al Bayt Stadium</span></div>
+                        <div class="stadium-area" id="stadium-3"><span>Al Janoub Stadium</span></div>
+                        <div class="stadium-area" id="stadium-4"><span>Al Thumama Stadium</span></div>
+                        <div class="stadium-area" id="stadium-5"><span>Education City Stadium</span></div>
+                        <div class="stadium-area" id="stadium-6"><span>Khalifa International Stadium</span></div>
+                        <div class="stadium-area" id="stadium-7"><span>Lusail Stadium</span></div>
+                        <div class="stadium-area" id="stadium-8"><span>Stadium 974</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Estádios -->
+
         <!-- Tickets -->
         <section id="tickets">
             <div class="container">
@@ -390,6 +415,39 @@
         </span>
     </footer>
     <!-- Fim Footer -->
+
+
+    <script>
+        let currentScrollPosition = 0;
+        let scrollAmount = 320;
+
+        const sCont = document.querySelector(".stadiums-container");
+        const hScroll = document.querySelector(".horizontal-scroll");
+        const btnScrollLeft = document.querySelector("#btn-scroll-left");
+        const btnScrollRight = document.querySelector("#btn-scroll-right");
+
+        btnScrollLeft.style.opacity = "0";
+
+        let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
+
+        function scrollHorizontally(val) {
+            currentScrollPosition += (val * scrollAmount)
+
+            if(currentScrollPosition >= 0){
+                currentScrollPosition = 0;
+            }else{
+                btnScrollLeft.style.opacity = "1";
+            }
+
+            if(currentScrollPosition <= maxScroll){
+                currentScrollPosition = maxScroll;
+                btnScrollRight.style.opacity = "0"
+            }else{
+                btnScrollRight.style.opacity = "1"
+            }
+            sCont.style.left = currentScrollPosition + "px";
+        }
+    </script>
 
     <!-- FontAwesome-->
     <script src="https://kit.fontawesome.com/1eb2b2dc60.js" crossorigin="anonymous"></script>

@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
 .horizontal-scroll {
-    
+    width: 100%;
+    height: 420px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.horizontal-scroll .btn-scroll {
+    background-color: white;
+    color: #999;
+    box-shadow: 0 0 5px #999;
+    border: 0;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.stadiums-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s all ease-out;
+}
+
+.stadium-area {
+    width: 260px;
+    height: 420px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.stadium-area span {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+
+div#stadium-1 {
+    background: url(../images/stadiums/ahmad-bin-ali-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-2 {
+    background: url(../images/stadiums/al-bayt-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-3 {
+    background: url(../images/stadiums/al-janoub-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-4 {
+    background: url(../images/stadiums/al-thumama-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-5 {
+    background: url(../images/stadiums/education-city-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-6 {
+    background: url(../images/stadiums/khalifa-international-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-7 {
+    background: url(../images/stadiums/lusail-stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#stadium-8 {
+    background: url(../images/stadiums/stadium-974.jpg) no-repeat;
+    background-size: cover;
 }
