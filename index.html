@@ -416,43 +416,12 @@
     </footer>
     <!-- Fim Footer -->
 
-
-    <script>
-        let currentScrollPosition = 0;
-        let scrollAmount = 320;
-
-        const sCont = document.querySelector(".stadiums-container");
-        const hScroll = document.querySelector(".horizontal-scroll");
-        const btnScrollLeft = document.querySelector("#btn-scroll-left");
-        const btnScrollRight = document.querySelector("#btn-scroll-right");
-
-        btnScrollLeft.style.opacity = "0";
-
-        let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
-
-        function scrollHorizontally(val) {
-            currentScrollPosition += (val * scrollAmount)
-
-            if(currentScrollPosition >= 0){
-                currentScrollPosition = 0;
-            }else{
-                btnScrollLeft.style.opacity = "1";
-            }
-
-            if(currentScrollPosition <= maxScroll){
-                currentScrollPosition = maxScroll;
-                btnScrollRight.style.opacity = "0"
-            }else{
-                btnScrollRight.style.opacity = "1"
-            }
-            sCont.style.left = currentScrollPosition + "px";
-        }
-    </script>
-
     <!-- FontAwesome-->
     <script src="https://kit.fontawesome.com/1eb2b2dc60.js" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
     <script src="scripts/script.js"></script>
+    <script src="scripts/stadiums-script.js"></script>
 </body>
 </html>
