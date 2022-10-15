@@ -42,7 +42,7 @@
     background-color: transparent;
     border: 2px solid white;
     border-radius: 10px;
-    margin: 0 3px;
+    margin: 0 5px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -99,7 +99,7 @@ div#stadium-8 {
 
 @media screen and (min-width: 768px) {
     .stadium-area {
-        margin: 0px 4px;
+        margin: 0px 6px;
     }
 
     .horizontal-scroll .btn-scroll {
@@ -110,13 +110,13 @@ div#stadium-8 {
 
 @media screen and (min-width: 992px) {
     .horizontal-scroll {
-        height: 640px;
+        height: 560px;
     }
 
     .stadium-area {
-        width: 340px;
-        height: 640px;
-        margin: 0px 6px;
+        width: 320px;
+        height: 560px;
+        margin: 0px 10px;
     }
 
     .horizontal-scroll .btn-scroll {
