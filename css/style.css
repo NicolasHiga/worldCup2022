@@ -53,6 +53,10 @@ p{
     text-align: justify;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul{
     padding: 0;
     list-style: none;
@@ -397,4 +401,9 @@ div.artigo article > ul {
     list-style: circle;
     padding-left: 25px;
     font-size: 1rem;
+}
+
+/* ------ Footer ------*/
+footer a {
+    color: white;
 }
