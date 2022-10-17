@@ -119,7 +119,7 @@ div#stadium-8 {
 /* ------ Media Queries ------*/
 @media screen and (min-width: 768px) {
     .stadium-area {
-        margin: 0px 6px;
+        margin: 0px 10px;
     }
 
     .horizontal-scroll .btn-scroll {
